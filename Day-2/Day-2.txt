@@ -1,0 +1,110 @@
+Question 1: Sum of Array Elements (Array ke saare elements ka sum nikalo)
+
+Input: [2, 4, 6, 8]
+
+Output: 20
+
+Variable:
+let sum = 0;
+
+Loop:
+i = 0; se last index tak
+
+Condition:
+Har iteration me arr[i] ko sum me add karte rahenge
+
+
+
+
+
+
+
+Question 3: Average of Array Elements ( Array ke saare elements ka average nikalo )
+
+Input:  [2, 4, 6, 8]
+
+Output: 5
+
+Variable:
+let sum = 0;
+let avg = null;
+
+loop:
+i = 0 se last index tak
+
+Condition:
+Loop ke andar sabhi elements ka sum nikalenge
+Loop ke baad sum ko arr.length se divide karenge
+
+
+
+
+
+
+Question 4: Find Smallest Positive Number (Array me se sabse chhota positive number (> 0) find karo)
+
+Input: [-3, 2, 5, -1, 1, 4]
+Array of numbers
+
+Output: 1 
+Sabse chhota positive number (> 0)
+
+Variables:
+Ek variable rakhenge jo smallest positive number ko store karega
+
+Step 1:
+Is variable ko aisi value se initialize karenge
+jisse koi bhi positive number chhota ho
+(taaki pehla positive number store ho jaaye)
+
+Step 2:
+Array par loop chalayenge start se end tak
+
+Step 3:
+Har element ke liye check karenge:
+- Agar number positive hai (> 0)
+  aur
+- Agar wo abhi stored value se chhota hai
+
+Step 4:
+Agar dono condition true ho,
+to variable ko current number se update kar denge
+
+Step 5:
+Loop ke baad variable hi final answer hoga
+
+
+
+
+
+
+Question 5: Reverse an Array (Array ko reverse karo without using extra array)
+
+Input: [1, 2, 3, 4, 5];
+
+Output: [5, 4, 3, 2, 1];
+
+Variables:
+Do index lenge:
+- start → array ke first index par
+- end → array ke last index par
+
+Step 1:
+start ko 0 se initialize karo
+end ko last index se initialize karo
+
+Step 2:
+Jab tak start < end ho:
+- start aur end index ke elements ko aapas me swap karo
+
+Step 3:
+Swap ke baad:
+- start ko 1 se aage badhao
+- end ko 1 se peeche lao
+
+Step 4:
+Jab start >= end ho jaaye:
+- loop stop kar do
+
+Final:
+Array reverse ho chuka hoga
